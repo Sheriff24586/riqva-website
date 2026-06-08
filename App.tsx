@@ -1,15 +1,14 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import LoadingScreen from './components/LoadingScreen';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import WhyChooseUs from './components/WhyChooseUs';
-import Testimonials from './components/Testimonials';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
-
+import LoadingScreen from './LoadingScreen';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Services from './Services';
+import About from './About';
+import WhyChooseUs from './WhyChooseUs';
+import Testimonials from './Testimonials';
+import CTA from './CTA';
+import Footer from './Footer';
 function App() {
   const [loading, setLoading] = useState(true);
 
