@@ -9,6 +9,8 @@ import {
   FaTools, 
   FaPaintBrush,
   FaArrowRight 
+  plugins: [react(), tailwindcss()],
+  publicDir: ".",
 } from 'react-icons/fa';
 
 const Services = () => {
