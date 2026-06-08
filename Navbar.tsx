@@ -54,7 +54,7 @@ const Navbar = () => {
             <img 
               src="/logo.png" 
               alt="RIQVA" 
-              className="w-10 h-10 object-contain mr-3"
+              className="w-10 h-10 object-cover rounded-full mr-3"
             />
             <div>
               <h1 className={`text-2xl font-bold ${isScrolled ? 'text-[#0a1f44]' : 'text-white'}`}>
